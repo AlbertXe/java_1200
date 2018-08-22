@@ -24,6 +24,9 @@ public class IOUtilsTest {
 		String absPath = System.getProperty("user.dir")+"/src/chap10_comm_class/file";
 		System.out.println(absPath);
 		File f = new File(absPath+"/file.txt");
+		
+		
+		
 		if (!f.exists()) {
 			try {
 				f.createNewFile();
